@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+#     authentication-database:
+#      username: ${MONGO_USERNAME}
+#      password: ${MONGO_PASSWORD}
+      database: batchSubject
+      port: 27017
+      host: localhost
+  application:
+    name: batch-service
+
